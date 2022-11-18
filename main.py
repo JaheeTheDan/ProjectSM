@@ -22,7 +22,7 @@ def shock_me():
 def wait():
     '''Simulate a shock by waiting and'''
     print('Shock')
-    sleep(1)
+    sleep(5)
 
 
 app = Flask(__name__)
