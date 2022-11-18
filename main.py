@@ -4,7 +4,7 @@ from time import sleep
 from scipy.io.wavfile import write
 
 
-def shock_me(): 
+def shock_me():
     '''Function that shock user (not completed) '''
     fs = 44100  # Sample rate
     seconds = 6  # Duration of recording
