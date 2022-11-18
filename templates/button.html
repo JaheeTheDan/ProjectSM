@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript">// <![CDATA[
+        function loading(){
+            $("#loading").show();
+            $("#buttons").hide();       
+        }
+// ]]></script>
+    
+    <title>Project Shock ME</title>
+</head>
+    <body>
+    <div>
+        <div id="loading">
+            <p><em>Yamete Kudasai</em></p>
+            <img src="static\3eeba18e4fe3f39e93caf408c2ec6e03.png" alt="anime blushing goes here">
+            
+            <p class="small_disclaimer">Just give it minute, you sadistic cunt.</p>
+        </div>
+
+        <div id="buttons">
+            <form action="/test" method="post">
+                <input type="submit" value="Oh, you really want to shock my owner?&#10;Well press me and see what happen." onclick="loading();">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

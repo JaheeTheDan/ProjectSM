@@ -1,0 +1,12 @@
+1. Write the the code
+    Documention need to be done (but will I? just a little)
+    The python code (The device) : Not completed yet
+    The HTML code (website): completed (I somewhat hate HTML)
+
+    The website would send a request to to the device and then task is carry out, a sound file is send back to website
+
+
+2. The Hardware: I have no idea what to do.
+
+
+3. Using the pixela api to show some data (or something like it)
