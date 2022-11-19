@@ -27,16 +27,14 @@ def wait():
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def main_page():
     '''Main page'''
     return render_template('index.html')
 
-@app.route('/button', methods=['GET', 'POST'])
+@app.route('/button')
 def button():
     '''Button page which show the button that is link to audio_output page'''
-    if request.method == 'POST':
-        wait()
     return render_template('button.html')
 
 @app.route('/audio_output', methods=['GET', 'POST'])
@@ -46,4 +44,4 @@ def audio_output():
         wait()
     return render_template('audio_output.html')
 
-app.run(debug=True)
+app.run()
